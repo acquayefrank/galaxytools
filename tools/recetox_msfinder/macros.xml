@@ -2,6 +2,7 @@
     <token name="@TOOL_VERSION@">v3.5.2</token>
     <xml name="requirements">
         <requirements>
+            <requirement type="package" version="3.8">python</requirement>
             <container type="docker">recetox/recetox-msfinder:v3.5.2-rcx2</container>
         </requirements>
     </xml>

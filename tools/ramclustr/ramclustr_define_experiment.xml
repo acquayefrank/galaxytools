@@ -9,7 +9,10 @@
     </edam_operations>
     <expand macro="refs"/>
     <expand macro="creator"/>
-
+    
+    <requirements>
+        <requirement type="package" version="3.8">python</requirement>
+    </requirements>
     <command detect_errors="exit_code"><![CDATA[
         sh ${ramclustr_define_experiment_cli}
     ]]>
