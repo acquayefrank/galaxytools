@@ -92,7 +92,7 @@
         ]]>
     </command>
     <inputs>
-        <param name="param_in" type="data" format="mzML" multiple="true" label="Input mzML files."/>
+        <param name="param_in" type="data" format="mzml" multiple="true" label="Input mzML files."/>
         <param format="csv" name="compounds" type="data" label="Compound list in CSV format."/>
         <param format="csv" name="infolist" type="data" label="Infolist in CSV format."/>
         <param name="mode" type="text" label="Mode for RMassBank pipeline."/>
