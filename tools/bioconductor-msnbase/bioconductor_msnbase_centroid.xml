@@ -85,8 +85,8 @@
         </test>
         <test>
             <param name="input_file" value="29_qc_no_dil_milliq_subset.mzML"/>
-            <param name="method" value="kNeighbors"/>
-            <param name="k" value="3"/>
+            <param name="refinement|method" value="kNeighbors"/>
+            <param name="refinement|k" value="3"/>
             <output name="output_file">
                 <assert_contents>
                     <expand macro="assertions_centroiding"/>
@@ -95,8 +95,8 @@
         </test>
         <test>
             <param name="input_file" value="29_qc_no_dil_milliq_subset.mzML"/>
-            <param name="method" value="descendPeak"/>
-            <param name="signal_percentage" value="10"/>
+            <param name="refinement|method" value="descendPeak"/>
+            <param name="refinement|signal_percentage" value="10"/>
             <output name="output_file">
                 <assert_contents>
                     <expand macro="assertions_centroiding"/>
