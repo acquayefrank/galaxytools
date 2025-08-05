@@ -285,7 +285,7 @@
     <token name="@HELP@">
         <![CDATA[
             Documentation
-                    For documentation on the tool see https://github.com/cbroeckl/RAMClustR
+                    For documentation on the tool see https://github.com/cbroeckl/RAMClustR/blob/master/vignettes/RAMClustR.Rmd
 
                 Upstream Tools
                     +------------------------------+-------------------------------+----------------------+---------------------+
